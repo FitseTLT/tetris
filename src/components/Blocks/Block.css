@@ -1,0 +1,71 @@
+.tetris-block {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.5),
+        inset -3px -3px 5px rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}
+
+.go-down-1 {
+    animation: go-down-1 0.3s linear 0.5s forwards;
+}
+
+@keyframes go-down-1 {
+    to {
+        transform: translate(0, 10rem);
+    }
+}
+
+.go-down-2 {
+    animation: go-down-2 0.3s linear 0.5s forwards;
+}
+
+@keyframes go-down-2 {
+    to {
+        transform: translate(0, 20rem);
+    }
+}
+
+.go-down-3 {
+    animation: go-down-3 0.3s linear 0.5s forwards;
+}
+
+@keyframes go-down-3 {
+    to {
+        transform: translate(0, 30rem);
+    }
+}
+
+.go-down-4 {
+    animation: go-down-4 0.3s linear 0.5s forwards;
+}
+
+@keyframes go-down-4 {
+    to {
+        transform: translate(0, 40rem);
+    }
+}
+
+.blink-animation {
+    opacity: 0;
+    animation: blink-animation 0.5s;
+}
+
+@keyframes blink-animation {
+    10% {
+        opacity: 0.6;
+    }
+    40% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    90% {
+        opacity: 1;
+    }
+}

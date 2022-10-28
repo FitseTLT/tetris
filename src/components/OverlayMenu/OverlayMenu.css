@@ -1,0 +1,72 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.overlay-menu {
+    width: 100%;
+    padding: 10rem 0 20rem;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 50vh;
+    transform: translate(0, -60%);
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #eee;
+}
+
+.overlay-menu .title {
+    font-size: 10rem;
+    margin-top: 10rem;
+}
+
+.overlay-menu button {
+    width: 50rem;
+    padding: 5rem;
+    border-radius: 2rem;
+    font-size: 5rem;
+    margin-top: 10rem;
+}
+
+h3 {
+    font-size: 7rem;
+    margin: 6rem;
+}
+
+.score-container {
+    display: flex;
+}
+
+.record-broken {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input.record-name {
+    padding: 4rem;
+    font-size: 5rem;
+    border-radius: 2rem;
+    color: #111;
+}
+
+.numbers {
+    border: 1px solid gray;
+    background-color: #ddd;
+    color: rgb(67, 29, 216);
+    padding: 1rem;
+    display: inline-block;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 4px 4px 3px rgba(255, 255, 255, 0.2);
+}

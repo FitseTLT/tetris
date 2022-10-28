@@ -1,0 +1,20 @@
+.menu {
+    color: #ddd;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu h2 {
+    font-size: 7rem;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .menu h2 {
+        font-size: 5rem;
+    }
+}

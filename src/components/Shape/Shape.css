@@ -1,0 +1,39 @@
+.tetris-shape {
+    position: absolute;
+}
+
+.tetris-shape[data-shape-type="0"] .tetris-block,
+.tetris-block[data-shape-type="0"] {
+    background-color: cyan;
+}
+
+.tetris-shape[data-shape-type="1"] .tetris-block,
+.tetris-block[data-shape-type="1"] {
+    background-color: blue;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.tetris-shape[data-shape-type="2"] .tetris-block,
+.tetris-block[data-shape-type="2"] {
+    background-color: orange;
+}
+
+.tetris-shape[data-shape-type="3"] .tetris-block,
+.tetris-block[data-shape-type="3"] {
+    background-color: yellow;
+}
+
+.tetris-shape[data-shape-type="4"] .tetris-block,
+.tetris-block[data-shape-type="4"] {
+    background-color: green;
+}
+
+.tetris-shape[data-shape-type="5"] .tetris-block,
+.tetris-block[data-shape-type="5"] {
+    background-color: red;
+}
+
+.tetris-shape[data-shape-type="6"] .tetris-block,
+.tetris-block[data-shape-type="6"] {
+    background-color: purple;
+}

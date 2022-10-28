@@ -1,0 +1,62 @@
+.keyboard {
+    align-self: center;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.keyboard button {
+    background-color: #eee;
+    color: #444;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 3px 10px;
+}
+
+.keyboard button:focus {
+    outline: none;
+}
+
+.keyboard button:hover {
+    box-shadow: 5px 5px 8px rgba(100, 100, 100, 0.7);
+}
+
+.keyboard button:active {
+    transform: scale(0.97);
+}
+
+.keyboard .ArrowUp {
+    grid-column: 2;
+}
+
+.keyboard .ArrowDown {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.keyboard .ArrowDown i {
+    transform: rotate(180deg);
+}
+
+.keyboard .ArrowRight {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.keyboard .ArrowRight i {
+    transform: rotate(90deg);
+}
+
+.keyboard .ArrowLeft {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.keyboard .ArrowLeft i {
+    transform: rotate(270deg);
+}
+
+.fa-arrow-up {
+    font-size: 5rem;
+}
